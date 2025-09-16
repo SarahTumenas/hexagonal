@@ -15,3 +15,10 @@ project:
   client:
     address:
       url: http://localhost:8082/addresses
+
+logging:
+  pattern:
+    console: '{"timestamp": "%d{yyyy-MM-dd HH:mm:ss.SSS}", "service": "customer-service", "level": "%level", "thread": "%thread", "message": "%msg"}%n'
+  level:
+    com.hexagonal: DEBUG
+    org.springframework.web: INFO
