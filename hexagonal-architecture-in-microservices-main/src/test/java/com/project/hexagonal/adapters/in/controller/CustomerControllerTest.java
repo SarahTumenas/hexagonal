@@ -16,7 +16,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class) // Habilita o Mockito
-public class CustomerControllerTest {
+class CustomerControllerTest {
 
     @Mock
     private InsertCustomerInputPort insertCustomerInputPort;
